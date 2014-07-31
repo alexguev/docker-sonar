@@ -7,7 +7,7 @@
 FROM stackbrew/debian:wheezy
 
 ENV SONAR_BASE_URL http://dist.sonar.codehaus.org/
-ENV SONAR_PACKAGE sonarqube-4.0.zip
+ENV SONAR_PACKAGE sonarqube-4.3.zip
 ENV SONAR_INSTALL_DIR /usr/local
 
 RUN apt-get install -y --force-yes wget openjdk-7-jre-headless
